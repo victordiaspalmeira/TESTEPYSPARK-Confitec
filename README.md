@@ -18,7 +18,7 @@ The following transformations were applied sequentially to the raw data:
 - 4. Add new field 'Data de Alteração' containing current timestamp
 - 5. Order transformed data by 'Active' and 'Genre' fields.
 - 6. Translate all fields to pt-br language.
-- 7. Select the following fields:'Titulo' 'Gênero', 'Temporada', 'Estreia', 'Idioma', 'Ativo', 'Estado', 'dt_inclusao' and 'Data de Alteração'.
+- 7. Select the following fields: 'Titulo' 'Gênero', 'Temporada', 'Estreia', 'Idioma', 'Ativo', 'Estado', 'dt_inclusao' and 'Data de Alteração'.
 
 This script can monitor Spark active jobs, raising a exception in case of one or more failing. Output data is uploaded to an AWS S3 Bucket.
 
